@@ -1,0 +1,68 @@
+#home{
+  h1{
+    text-align:center;
+    padding: 80px 0 20px 0;
+    color: white;
+  }
+  .link-section{
+    background-color: rgba(4, 15, 26, 0.5);
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    .category{
+      padding: 20px;
+      .title{
+        font-size: 1.2rem;
+        color: white;
+        text-transform: uppercase;
+        padding: 5px;
+        font-weight: 700;
+      }
+      .links{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .link{
+          padding: 2px;
+          font-size: 0.7rem;
+          font-weight: 300;
+          text-decoration: none;
+          text-align: center;
+          color: rgb(195, 197, 201);
+        }
+      }
+    }
+  }
+  .trending{
+    width: 950px;
+    margin: 0 auto;
+    .search{
+      width: 100%;
+      border-radius: 5px;
+      font-size: 1.5rem;
+      border: 1px solid black;
+      padding: 10px;
+    }
+  }
+  .trending-title{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+  .trending-tags{
+    text-align: center;
+    .tag{
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: 1px solid white;
+      display: inline-block;
+      color: white;
+      font-weight: 200;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}
