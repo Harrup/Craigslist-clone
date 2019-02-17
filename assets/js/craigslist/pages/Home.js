@@ -1,53 +1,90 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
+import {Link} from 'react-router-dom'
+import axios from 'axios'
 
 export default class Home extends Component {
   constructor () {
     super()
     this.state = {
+      categoriesData:''
     }
   }
-  clickedBtn = () => {
+
+  componentDidMount(){
+    const {match, history} = this.props
+    if(match.params.city == undefined){
+      history.push('/ottawa')
+    }
+    const self = this;
+    axios.get(`/api/${match.params.city}`)
+    .then(function (response) {
+      self.setState({
+        categoriesData:response.data
+      }, ()=>{
+        console.log(self.state.categoriesData);
+      })
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+
+    axios.get(`/api/trending`)
+    .then(function (response) {
+      self.setState({
+        trendingTagsData:response.data
+      }, ()=>{
+        console.log(self.state);
+      })
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
   }
   loopCategories = () =>{
-    let array = [1,2,3,4,5,6,7];
-    return array.map(()=>{
-      return(
-        <div className='category'>
-          <div className='title'>Community</div>
-          <div className='links'>
-            <a href='#' className='link'>Community</a>
-            <a href='#' className='link'>General</a>
-            <a href='#' className='link'>Activities</a>
-            <a href='#' className='link'>Groups</a>
-            <a href='#' className='link'>Artists</a>
-            <a href='#' className='link'>Local News</a>
-            <a href='#' className='link'>Child Care</a>
-            <a href='#' className='link'>Lost & Found</a>
-            <a href='#' className='link'>Classes</a>
-            <a href='#' className='link'>Musician</a>
-            <a href='#' className='link'>Events</a>
-            <a href='#' className='link'>Pets</a>
-          </div>
-        </div>
-      )
-    })
-  }
-  loopTags = () =>{
-    let array = [1,2,3,4,5,6,7]
-    return array.map(()=>{
+    const {match, history} = this.props
+    if(this.state.categoriesData != ''){
+      return this.state.categoriesData.map((category,i)=>{
+        const loopListing = () => {
+          return category.listings.map((listing,i)=>{
+            return(
+              <Link to={`/${match.params.city}/${category.title}/${listing.slug}`}
+              key={i}>{listing.name}</Link>
+            )
+          })
+        }
         return(
-          <div className='tag'>Apple Macbook</div>
+          <div className='category' key = {i}>
+            <a href={`${match.params.city}/${category.title}`} className='title'>{category.title}</a>
+            <div className='links'>
+              {loopListing()}
+            </div>
+          </div>
         )
       })
+    }
+    else{
+        return <h1>loading loading loading loading loading loading</h1>
+    }
+  }
+  loopTags = () =>{
+    if(this.state.trendingTagsData != undefined){
+      return this.state.trendingTagsData.map((item,i)=>{
+          return(
+            <div className='tag' key={i}>{item.name}</div>
+          )
+        })
+    }
   }
   render () {
     return (
       <div id='home'>
         <h1> Connecting People <br /> Everywhere </h1>
-        <section className='link-section'>
-          {this.loopCategories()}
-        </section>
+        <div className='container'>
+          <section className='link-section'>
+            {this.loopCategories()}
+          </section>
+        </div>
         <section className="trending">
           <input type='text' name='search' className='search' placeholder="search" />
           <div className="trending-title"><i className="far fa-clock"></i> Trending Now</div>

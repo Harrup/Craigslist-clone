@@ -7,7 +7,7 @@
   "license": "MIT",
   "homepage": "http://rocky.codingphase.com/",
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "^0.16.2",
     "babel-core": "^6.24.1",
     "babel-loader": "^6.4.1",
     "babel-polyfill": "^6.0.16",
@@ -29,6 +29,7 @@
     "gulp-watch": "^4.3.9",
     "html-webpack-plugin": "^2.28.0",
     "node-sass": "^4.5.2",
+    "query-string": "^6.2.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.4",

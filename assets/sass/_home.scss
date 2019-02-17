@@ -10,18 +10,22 @@
     justify-content: space-around;
     margin-bottom: 2rem;
     .category{
-      padding: 20px;
+      padding: 10px;
       .title{
         font-size: 1rem;
         color: white;
         text-transform: uppercase;
         padding: 5px;
         font-weight: 500;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 15px;
       }
       .links{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        .link{
+        a{
           padding: 2px;
           font-size: 0.7rem;
           font-weight: 300;
@@ -64,6 +68,43 @@
       margin-bottom: 20px;
       margin-right: 20px;
       cursor: pointer;
+    }
+  }
+}
+
+
+/* Responsive */
+/* Phones */
+@media only screen and (max-width:767px){
+  #home{
+    .trending{
+      width: 100%;
+    }
+    .link-section{
+      display: block;
+      .category{
+        width: 300px;
+        margin:0 auto;
+      }
+    }
+  }
+}
+
+/* Responsive */
+/* Tablets */
+@media only screen and (max-width:960px){
+  #home{
+    .container{
+      width: 100%;
+      .link-section{
+        .category{
+          padding: 3px;
+        }
+      }
+    }
+    .trending{
+      padding: 5px;
+      width: 100%;
     }
   }
 }

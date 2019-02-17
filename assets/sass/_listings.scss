@@ -1,0 +1,148 @@
+#listings-page{
+  #filter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    .further-options{
+      display: flex;
+    }
+  }
+  #items-section{
+    background-color: $greyBackground;
+    padding: 20px 0;
+    .views{
+      display: flex;
+      flex-direction: row;
+      background: white;
+      padding: 10px 10px;
+    }
+      #page-results{
+        background: white;
+        padding: 10px 10px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px 20px;
+        .details-box{
+          // width: 100%;
+          // height: 200px;
+          box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+          border-radius: 5px;
+          overflow:hidden;
+          //position: relative;
+        .image{
+          position: relative;
+          padding: 10px;
+          //width: 100%;
+          height: 250px;
+          background-position: center center !important;
+          background-repeat: no-repeat !important;
+          background-size: cover !important;
+          //background-image: url("https://images.unsplash.com/photo-1441148345475-03a2e82f9719?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+          .price{
+            position: absolute;
+            padding: 5px 15px;
+            background: white;
+            color: green;
+            //font-size: 0.9rem;
+            border-radius: 3px;
+          }
+        }
+        .details{
+          position: relative;
+          background: white;
+          padding: 10px;
+          .far{
+            position: absolute;
+            right: 10px;
+            top: 15px;
+            font-size: 1.2rem;
+            &:hover{
+              cursor: pointer;
+              color: gold;
+            }
+          }
+          .title{
+            color: $darkGreyText;
+            font-size: 0.9rem;
+            line-height: 1.5;
+          }
+          .city{
+            color: $greyText;
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    label{
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      padding: 10px 0;
+      font-weight: 700;
+    }
+    select{
+      border-radius: 5px;
+      background: white;
+      color: $greyText;
+      font-size: 1.2rem;
+      border: 2px solid $selectBoxColor;
+      margin-right: 10px;
+      min-width: 150px;
+    }
+    &.button{
+      flex-direction:row;
+      align-items: flex-end;
+      text-transform: uppercase;
+      .primary-btn, .reset-btn{
+        padding: 10px 20px;
+        margin-right: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .primary-btn{
+        background: $blueButton;
+        color: white;
+      }
+      .reset-btn{
+        background:$greyText;
+      }
+    }
+  }
+}
+
+/* Responsive */
+/* Phones */
+@media only screen and (max-width:767px){
+  #listings-page{
+    .form-group{
+      margin-bottom: 2rem;
+    }
+    #filter{
+      flex-direction: column;
+    }
+    #items-section{
+      padding: 20px 5px;
+      .views{
+        padding: 0px
+      }
+        #page-results{
+          grid-template-columns: 1fr;
+        }
+    }
+  }
+}
+
+/* Responsive */
+/* Tablets */
+@media only screen and (max-width:960px){
+  #listings-page{
+    .form-group{
+      select{
+        min-width: 130px;
+      }
+    }
+  }
+}

@@ -1,7 +1,13 @@
 @import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 @import "reset";
+@import "variables";
 @import "home";
+@import "listings";
+@import "details";
 
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-image:linear-gradient(135deg, rgba(91,123,217,0.7) 0%, rgba(255,25,224,0.7) 100%) ,url('https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2501d73697239f0d5569c4cf39477389&auto=format&fit=crop&w=900&q=60');
@@ -17,7 +23,7 @@ h1 {
 }
 
 header{
-  padding: 20px;
+  padding: 20px 0;
   display: flex;
   color: white;
   justify-content: space-between;
@@ -30,12 +36,38 @@ header{
       font-size: 2rem;
     }
     .city{
+      position: relative;
+      cursor: pointer;
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 15px 20px;
       .fas{
-        margin-left: 2px;
+        margin-left: 10px;
+      }
+      .city-dropdown{
+        position: absolute;
+        visibility: hidden;
+        top: 20px;
+        opacity: 0;
+        background: rgba(0,0,0,0.5);
+        min-width: 100px;
+        height: 86px;
+        overflow-y: scroll;
+        left: 11px;
+        transition: 0.5s all ease-in-out;
+        li{
+          padding: 10px;
+          cursor: pointer;
+          &:hover{
+            background:rgba(0,0,0,0.7)
+          }
+        }
+        &.active{
+          visibility: visible;
+          top: 35px;
+          opacity: 1;
+        }
       }
     }
   }
@@ -61,7 +93,7 @@ header{
       justify-content: center;
       align-items: center;
       padding: 15px 20px;
-      background: blue;
+      background: $blueButton;
       color: white;
       cursor: pointer;
       border-radius: 5px;
@@ -69,6 +101,28 @@ header{
   }
 }
 .container{
-  max-width: 1300px;
+  max-width: 1250px;
   margin: 0 auto;
+}
+
+/* Responsive */
+/* Phones */
+@media only screen and (max-width:767px){
+  header{
+    padding: 20px 10px;
+    .right-menu{
+      display: none;
+    }
+  }
+}
+
+/* Responsive */
+/* Tablet */
+@media only screen and (max-width:960px){
+  .container{
+    width: 100%;
+  }
+  header{
+    padding: 20px 10px;
+  }
 }
