@@ -239,6 +239,303 @@ module.exports = [
       "https://images.craigslist.org/00C0C_37bWGZBRqAw_600x450.jpg",
       "https://images.craigslist.org/00505_h3EgVu1QG5t_600x450.jpg"
     ]
+  },
+  {
+    date: "15/03/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'bikes',
+    title:'Commuter bike frames',
+    id:8,
+    price:30,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00i0i_iHzTe56OiWo_600x450.jpg",
+      "https://images.craigslist.org/01616_ftujxM0CMBg_600x450.jpg",
+      "https://images.craigslist.org/00I0I_9ODQ7nvPPul_600x450.jpg",
+      "https://images.craigslist.org/00E0E_86mX6TpsXZB_600x450.jpg",
+      "https://images.craigslist.org/00Z0Z_9yOdJTH5s8h_600x450.jpg"
+    ]
+  },
+  {
+    date: "22/02/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'bikes',
+    title:'Nishiki olympic racer',
+    id:9,
+    price:390,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00000_baHppOYBYOk_600x450.jpg",
+      "https://images.craigslist.org/00t0t_e9Ir8rZTM2e_600x450.jpg",
+      "https://images.craigslist.org/00909_18FLJsvQIWO_600x450.jpg",
+      "https://images.craigslist.org/00g0g_29UeflvAZz5_600x450.jpg"
+    ]
+  },
+  {
+    date: "22/02/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'bikes',
+    title:'VAINQUEUR 10-Speed Racer',
+    id:10,
+    price:200,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00b0b_cPanTICB0VV_600x450.jpg",
+      "https://images.craigslist.org/01313_8PwByVwbFR3_600x450.jpg",
+      "https://images.craigslist.org/00H0H_dmLK3AbEgxW_600x450.jpg",
+      "https://images.craigslist.org/00H0H_8bmOpnmk3s4_600x450.jpg"
+    ]
+  },
+  {
+    date: "30/04/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'bikes',
+    title:'Pure fix Racer',
+    id:11,
+    price:125,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00F0F_gLhN9Wg7p4S_600x450.jpg",
+      "https://images.craigslist.org/00b0b_7IhTeumyyFA_600x450.jpg",
+      "https://images.craigslist.org/00000_1sT7oOUvkuA_600x450.jpg"
+    ]
+  },
+  {
+    date: "05/02/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'cars-and-trucks',
+    title:'Toyota runner',
+    id:12,
+    price:5200,
+    extraDetails:{
+      make:'Toyota',
+      model:'runner',
+      year:'2004',
+      vin:'JKT661233P',
+      miles:'135000',
+      transmission:'auto',
+      fuel:'gasoline',
+      color:'grey',
+      drive:'all wheel drive',
+      type:'SUV',
+      interior:'grey cloth'
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00f0f_a0G68VHECE9_600x450.jpg",
+      "https://images.craigslist.org/00d0d_lXR5FOxTvTy_600x450.jpg",
+      "https://images.craigslist.org/00M0M_fh9MlN3nUE6_600x450.jpg",
+      "https://images.craigslist.org/00Q0Q_lcz9qlYgxtX_600x450.jpg",
+      "https://images.craigslist.org/00M0M_fOAey9A793I_600x450.jpg",
+      "https://images.craigslist.org/00o0o_3osLkLjVbac_600x450.jpg",
+      "https://images.craigslist.org/00a0a_4AlHhvNsTHA_600x450.jpg"
+    ]
+  },
+  {
+    date: "12/04/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'cars-and-trucks',
+    title:'Mercedes E500',
+    id:13,
+    price:3500,
+    extraDetails:{
+      make:'Mercedes',
+      model:'E500',
+      year:'2003',
+      vin:'LQKKT661233P',
+      miles:'139000',
+      transmission:'auto',
+      fuel:'gasoline',
+      color:'silver',
+      drive:'all wheel drive',
+      type:'sedan',
+      interior:'white leather'
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00O0O_c2TI8kWOfrU_600x450.jpg",
+      "https://images.craigslist.org/00q0q_letW8W9xWOj_600x450.jpg",
+      "https://images.craigslist.org/00g0g_e3ynzJ8eyMy_600x450.jpg",
+      "https://images.craigslist.org/00T0T_26z8o0TYQH4_600x450.jpg",
+      "https://images.craigslist.org/00T0T_jmC5IOrAaJB_600x450.jpg",
+      "https://images.craigslist.org/00I0I_dbKBL18e8gr_600x450.jpg",
+      "https://images.craigslist.org/00i0i_ajGChQ4CidX_600x450.jpg",
+      "https://images.craigslist.org/00808_dpuCzGJHGXH_600x450.jpg"
+    ]
+  },
+  {
+    date: "12/03/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'boats',
+    title:'Kawasaki jetski',
+    id:14,
+    price:2900,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/01010_fTGRcHTPSnZ_600x450.jpg",
+      "https://images.craigslist.org/00T0T_3PqoMTX9ivh_600x450.jpg",
+      "https://images.craigslist.org/00s0s_kFRof2PkKYO_600x450.jpg",
+      "https://images.craigslist.org/00B0B_kWlvTJsQ9uQ_600x450.jpg",
+      "https://images.craigslist.org/00q0q_1zTatXx3jWr_600x450.jpg",
+      "https://images.craigslist.org/00t0t_1AcQZaYRFL6_600x450.jpg"
+    ]
+  },
+  {
+    date: "09/03/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'boats',
+    title:'2003 GLASTRON  SX170 , WAKEBOARD Boat',
+    id:15,
+    price:8950,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00q0q_aLpJHs4ClqZ_600x450.jpg",
+      "https://images.craigslist.org/00s0s_ODyglickIi_600x450.jpg",
+      "https://images.craigslist.org/00r0r_3WA1xwrzG87_600x450.jpg",
+      "https://images.craigslist.org/01111_j87vVSh1yp7_600x450.jpg",
+      "https://images.craigslist.org/00808_eMyjFsbToFs_600x450.jpg"
+    ]
+  },
+  {
+    date: "19/04/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'cell-phones',
+    title:'iphone 8 64gb',
+    id:16,
+    price:550,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00r0r_inJrhrIzY2R_600x450.jpg",
+      "https://images.craigslist.org/00C0C_jThnl9nR0EN_600x450.jpg",
+      "https://images.craigslist.org/01717_6BGtDncYEGX_600x450.jpg"
+    ]
+  },
+  {
+    date: "11/02/2019",
+    city:'ottawa',
+    category:'for-sale',
+    listing:'cell-phones',
+    title:'iphone x',
+    id:17,
+    price:390,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      "https://images.craigslist.org/00D0D_2BXHzTMkbYQ_600x450.jpg",
+    ]
   }
+
 
 ]
