@@ -27,4 +27,8 @@ On the root of this project run on your terminal (if you want you can do this wi
 
 **Start the server**
 
+	node server.js
+
+open second terminal
+
   npm run watch
