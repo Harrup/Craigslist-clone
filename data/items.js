@@ -535,6 +535,37 @@ module.exports = [
     images:[
       "https://images.craigslist.org/00D0D_2BXHzTMkbYQ_600x450.jpg",
     ]
+  },
+  {
+    date: "22/02/2019",
+    city:'toronto',
+    category:'for-sale',
+    listing:'cars-and-trucks',
+    title:'TOYOTA 4RUNNER SR5,',
+    id:18,
+    price:4995,
+    extraDetails:{
+      make:'Toyota',
+      model:'4runner',
+      year:'1999',
+      vin:'WBAK019293ER',
+      miles:'250000',
+      transmission:'auto',
+      fuel:'gasoline',
+      color:'grey',
+      drive:'four wheel drive',
+      type:'suv',
+      interior:'baige cloth'
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      'https://images.craigslist.org/00R0R_kEq9Eh59Nmb_600x450.jpg',
+      'https://images.craigslist.org/01515_czJQBfj4fAM_600x450.jpg',
+      'https://images.craigslist.org/00C0C_lj82F3cdKY4_600x450.jpg',
+      'https://images.craigslist.org/00k0k_aYp6czlQY0E_600x450.jpg',
+      'https://images.craigslist.org/00F0F_q1q06oMclH_600x450.jpg',
+      'https://images.craigslist.org/00r0r_bzvcka3oB8C_600x450.jpg'
+    ]
   }
 
 
