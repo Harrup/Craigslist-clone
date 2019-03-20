@@ -566,6 +566,35 @@ module.exports = [
       'https://images.craigslist.org/00F0F_q1q06oMclH_600x450.jpg',
       'https://images.craigslist.org/00r0r_bzvcka3oB8C_600x450.jpg'
     ]
+  },
+  {
+    date: "13/04/2019",
+    city:'toronto',
+    category:'for-sale',
+    listing:'computers',
+    title:'Dell laptop W10PRO i5,',
+    id:19,
+    price:180,
+    extraDetails:{
+      make:'',
+      model:'',
+      year:'',
+      vin:'',
+      miles:'',
+      transmission:'',
+      fuel:'',
+      color:'',
+      drive:'',
+      type:'',
+      interior:''
+    },
+    description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l',
+    images:[
+      'https://images.craigslist.org/01414_iVngPWedgPI_600x450.jpg',
+      'https://images.craigslist.org/00P0P_kmY0TQ3deun_600x450.jpg',
+      'https://images.craigslist.org/00M0M_cqtGoDLK6Ep_600x450.jpg',
+      'https://images.craigslist.org/00e0e_7IxFYIogwf6_600x450.jpg',
+    ]
   }
 
 
